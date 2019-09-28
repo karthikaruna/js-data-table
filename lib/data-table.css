@@ -1,0 +1,7 @@
+.sticky-header {
+  position: relative;
+}
+.sticky-header th {
+  position: sticky;
+  top: 0;
+}
