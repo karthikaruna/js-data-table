@@ -5,3 +5,7 @@
   position: sticky;
   top: 0;
 }
+
+.sortable th {
+  cursor: pointer;
+}
