@@ -9,3 +9,18 @@
 .sortable th {
   cursor: pointer;
 }
+
+#pager {
+  list-style-type: none;
+}
+#pager li {
+  display: inline-block;
+  padding: 5px;
+}
+#pager li.active {
+  background-color: black;
+  color: white;
+}
+.paginated~#pager li {
+  cursor: pointer;
+}
