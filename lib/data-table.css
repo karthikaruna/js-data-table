@@ -10,6 +10,14 @@
   cursor: pointer;
 }
 
+#no-results {
+  display: none;
+  text-align: center;
+}
+table.empty+#no-results {
+  display: block;
+}
+
 #pager {
   list-style-type: none;
 }
