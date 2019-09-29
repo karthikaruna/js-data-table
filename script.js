@@ -35,7 +35,7 @@ fetch('https://restcountries.eu/rest/v2/all')
       filterableColumns: ['name', 'capital', 'region', 'population', 'area'],
       isHeaderFixed: true,
       isPaginated: true,
-      pageLimitOptions: [5, 10, 15, 20],
-      pageLimit: 10
+      pageLimitOptions: [10, 20, 30, 40, 50, 60, 70],
+      pageLimit: 50
     })
   })
