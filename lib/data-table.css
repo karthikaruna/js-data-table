@@ -16,11 +16,18 @@
 #pager li {
   display: inline-block;
   padding: 5px;
+  cursor: pointer;
 }
 #pager li.active {
   background-color: black;
   color: white;
 }
-.paginated~#pager li {
-  cursor: pointer;
+
+@media only screen and (max-width: 767px) {
+  #table-wrapper {
+    overflow-x: auto;
+  }
+  table {
+    white-space: nowrap;
+  }
 }
