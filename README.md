@@ -1,4 +1,4 @@
-<h1>zeta-data-table</h1>
+<h1>js-data-table</h1>
 
 <h2>Usage instructions</h2>
 <ul>
